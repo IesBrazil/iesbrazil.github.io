@@ -1,0 +1,474 @@
+/* todas as páginas */
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+	text-align:center;
+	color:white;
+	font-size: 35px;
+	font-family: Arial;
+	margin-top: 90px;
+	
+}
+
+
+.menu {
+  float: left;
+  width: 20%;
+  padding: 30px;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+
+
+.foot{
+    width: 100%;
+    height: 70px;
+	padding: 10px;
+    text-align: center;
+    color: white;
+	
+}
+
+
+
+
+body {
+  background-image: url("fundo2.png");
+  background-attachment: fixed;
+  background-size: 100%, 100%, 100%;
+  width:90%;margin: 0 auto;min-width:600px;max-width:2000px;
+ 
+  
+}
+
+@media only screen and (max-width:1000px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:1000px) {
+  /* For mobile phones: */
+  .menu, .main, .right .body .footer{
+    width: 100%;
+  }
+}
+
+
+
+
+/* Botões centrais 1*/
+
+.mainmenubtn {
+	border: 2px solid;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+	width: 200px;
+	font-weight: Arial;
+	font-size:18px;
+	
+	
+}
+.mainmenubtn:hover {
+    color:black;
+    background-color: Bisque;
+	border: 2px solid;
+    border-radius: 25px;
+	font-family: Arial;
+	
+	
+    }
+.dropdown {
+    position: absolute;
+	left: 980px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.dropdown-child {
+    display: none;
+	font-family: Arial;
+    background-color: ;
+    min-width: 200px;
+	
+}
+.dropdown-child a {
+	margin-top: 20px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+	font-family: Arial;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+
+/* Botões centrais 2*/
+
+.mainmenubtn2 {
+	border: 2px solid;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+	width: 200px;
+	font-weight: Arial;
+	font-size:18px;
+	
+	
+}
+.mainmenubtn2:hover {
+    color:black;
+    background-color: Bisque;
+	border: 2px solid;
+    border-radius: 25px;
+	font-family: Arial;
+    }
+.dropdown2 {
+    position: absolute;
+	left: 1230px;
+	display: inline-block;
+}
+.dropdown-child2 {
+    display: none;
+    background-color: ;
+    min-width: 200px;
+	font-family: Arial;
+}
+.dropdown-child2 a {
+	margin-top: 20px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+	font-family: Arial;
+}
+.dropdown2:hover .dropdown-child2 {
+    display: block;
+}
+
+
+/* Botões centrais 3*/
+
+.mainmenubtn3 {
+	border: 2px solid;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+	width: 200px;
+	font-weight: Arial;
+	font-size:18px;
+	
+}
+.mainmenubtn3:hover {
+	color:black;
+    background-color: Bisque;
+	border: 2px solid;
+    border-radius: 25px;
+	font-family: Arial;
+    }
+	
+.dropdown3 {
+    position: absolute;
+	left: 730px;
+	display: inline-block;
+}
+.dropdown-child3 {
+    display: none;
+    background-color: ;
+    min-width: 200px;
+	font-family: Arial;
+}
+.dropdown-child3 a {
+    margin-top: 20px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+	font-family: Arial;
+}
+.dropdown3:hover .dropdown-child3 {
+    display: block;
+}
+
+/* Botões centrais 4*/
+
+.mainmenubtn4 {
+	border: 2px solid;
+    border-radius: 25px;
+	background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+	width: 200px;		
+	font-weight: Arial;
+	font-size:18px;
+}
+.mainmenubtn4:hover {
+	color:black;
+    background-color: Bisque;
+	border: 2px solid;
+    border-radius: 25px;
+	font-family: Arial;
+    }
+.dropdown4 {
+    position: absolute;
+	left: 480px;
+	display: inline-block;
+	
+}
+.dropdown-child4 {
+    display: none;
+    background-color: ;
+    min-width: 200px;
+	font-family: Arial;
+}
+.dropdown-child4 a {
+    margin-top: 20px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+	font-family: Arial;
+	
+}
+.dropdown4:hover .dropdown-child4 {
+    display: block;
+
+}
+
+
+/* Botões centrais */
+
+/* Logos da footer */
+
+.siga{
+	text-align: center;
+	position: absolute;
+    margin-left: 1625px;
+	padding: 22px;
+    text-align: center;
+    color: white;
+	font-size: 22px;
+	margin-top: -55px;
+
+}
+
+
+}
+#pos{
+   float: right;
+    margin-top: 15px;
+}
+#ant{
+    float: left;
+    margin-top: -10px;
+	width: 40px;
+}
+
+#insta{
+	position: absolute;
+    float: left;
+    margin-top: 0px;
+	width: 30px;
+	margin-left: 840px;
+}
+
+#youtube{
+	position: absolute;
+    float: left;
+    margin-top: 0px;
+	width: 30px;
+	margin-left: 720px;
+}
+
+#linkdlen{
+	position: absolute;
+    float: left;
+    margin-top: 0px;
+	width: 30px;
+	margin-left: 800px;
+}
+
+#facebook{
+	position: absolute;
+    float: left;
+    margin-top: 0px;
+	width: 30px;
+	margin-left: 760px;
+}
+
+#twitter{
+	position: absolute;
+    float: left;
+    margin-top: 0px;
+	width: 30px;
+	margin-left: 880px;
+}
+
+
+/* Logos da footer */
+
+
+.lista{
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    float: right;
+    color: skyblue;
+
+}
+
+#logo{
+    float: center;
+    margin-top: 0px;
+	padding: -5px;
+	width: 20px;
+}
+
+
+/* index */
+
+#itit{
+    position: relative;
+}
+
+.menu-principal{ 
+	color: white;
+	font-size: 18px;
+    display: inline;
+    text-decoration: white;
+    margin-inside: 10px;
+    color: white;
+    list-style-type: none;
+	text-align: left;
+	font-family: Arial;
+
+
+}
+a:hover{ 
+    color: black;
+	
+}
+
+.lista{
+    margin-bottom: 1px;
+    margin-inside: 5px 10px;
+    list-style-type: none;
+	color: white;
+}
+.lista2{
+    display: none;
+}
+.lista2 li:hover ul{
+    display: block;
+}
+
+.origem{
+	position: absolute;
+	height: 80px;
+    width: 90px;
+    margin-left: 100px;
+	right: 50px;	
+    border-radius: 10px;
+	color: white;
+} 
+
+
+/* footer */
+
+.footd{
+	text-align: center;
+	position: absolute;
+    margin-left: 35px;
+	padding: 16px;
+    text-align: center;
+    color: white;
+	font-size: 22px;
+
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+#ajustbutom {
+	display: flexbox, justify, center;
+	position: justify;
+	
+		
+}
+    
+    
+
+
+	@media only screen and (max-width:1000px) {
+  /* For tablets: */
+  .sobre_container {
+    width: 100%;
+    padding: 100;
+  }
+  .dropdown2 {
+    width: 100%;
+	padding: 20;
+  }
+  
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu-principal, .sobre_container, .menu-departamentos .dropdown .dropdown2 .dropdown3 .dropdown4 .foot{
+    width: 100%;
+  }
+
+
+
+}

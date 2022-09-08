@@ -9,7 +9,7 @@
 	color:white;
 	font-size: 35px;
 	font-family: Arial;
-	margin-top: 90px;
+	margin-top: 150px;
 	
 }
 
@@ -54,9 +54,12 @@
 
 body {
   background-image: url("fundo2.png");
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%, 100%, 100%;
-  width:90%;margin: 0 auto;min-width:600px;max-width:2000px;
+  background-size: 100%, 100%, 20%;
+  background-size: cover;
+  min-height: 500px;
+  width:100%;margin: 0 auto;min-width:600px;max-width:2000px;
  
   
 }
@@ -92,7 +95,7 @@ body {
     cursor: pointer;
     padding:20px;
     margin-top:20px;
-	width: 200px;
+	width: 250px;
 	font-weight: Arial;
 	font-size:18px;
 	
@@ -108,27 +111,35 @@ body {
 	
     }
 .dropdown {
-    position: absolute;
+    /*position: absolute;
 	left: 980px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	display: block;*/
+    display: inline-block;
+	/*margin-left: auto;
+	margin-right: auto;*/
+    width: 20%;
 
 }
 .dropdown-child {
+	width: 20%;
     display: none;
-	font-family: Arial;
+    position: absolute;
     background-color: ;
     min-width: 200px;
+	font-family: Arial;
+    text-align: center;
+	margin-top: 30px;
+	margin:-10px;
 	
 }
 .dropdown-child a {
-	margin-top: 20px;
+	margin-top: 15px;
     color: white;
     padding: 5px;
     text-decoration: none;
     display: block;
 	font-family: Arial;
+	margin:20px;
 }
 .dropdown:hover .dropdown-child {
     display: block;
@@ -146,7 +157,7 @@ body {
     cursor: pointer;
     padding:20px;
     margin-top:20px;
-	width: 200px;
+	width: 250px;
 	font-weight: Arial;
 	font-size:18px;
 	
@@ -160,23 +171,30 @@ body {
 	font-family: Arial;
     }
 .dropdown2 {
-    position: absolute;
-	left: 1230px;
+    /*position: absolute;
+	left: 1230px;*/
+    width: 20%;
 	display: inline-block;
 }
 .dropdown-child2 {
+	width: 20%;
     display: none;
+    position: absolute;
     background-color: ;
     min-width: 200px;
 	font-family: Arial;
+    text-align: center;
+	margin-top: 30px;
+	margin:-10px;
 }
 .dropdown-child2 a {
-	margin-top: 20px;
+	margin-top: 15px;
     color: white;
     padding: 5px;
     text-decoration: none;
     display: block;
 	font-family: Arial;
+	margin:20px;
 }
 .dropdown2:hover .dropdown-child2 {
     display: block;
@@ -194,7 +212,7 @@ body {
     cursor: pointer;
     padding:20px;
     margin-top:20px;
-	width: 200px;
+	width: 250px;
 	font-weight: Arial;
 	font-size:18px;
 	
@@ -208,15 +226,21 @@ body {
     }
 	
 .dropdown3 {
-    position: absolute;
-	left: 730px;
+    /*position: absolute;
+	left: 730px;*/
 	display: inline-block;
+    width: 20%;
 }
 .dropdown-child3 {
+	width: 20%;
     display: none;
+    position: absolute;
     background-color: ;
     min-width: 200px;
 	font-family: Arial;
+    text-align: center;
+	margin-top: 30px;
+	margin:-10px;
 }
 .dropdown-child3 a {
     margin-top: 20px;
@@ -225,6 +249,7 @@ body {
     text-decoration: none;
     display: block;
 	font-family: Arial;
+	margin:20px;
 }
 .dropdown3:hover .dropdown-child3 {
     display: block;
@@ -241,7 +266,7 @@ body {
     cursor: pointer;
     padding:20px;
     margin-top:20px;
-	width: 200px;		
+	width: 250px;		
 	font-weight: Arial;
 	font-size:18px;
 }
@@ -253,24 +278,31 @@ body {
 	font-family: Arial;
     }
 .dropdown4 {
-    position: absolute;
-	left: 480px;
+    /*position: absolute;
+	left: 480px;*/
+    width: 20%;
 	display: inline-block;
 	
 }
 .dropdown-child4 {
+	width: 20%;
     display: none;
+    position: absolute;
     background-color: ;
     min-width: 200px;
 	font-family: Arial;
+    text-align: center;
+	margin-top: 0px;
+	margin:-10px;
 }
 .dropdown-child4 a {
-    margin-top: 20px;
+    margin-top: 15px;
     color: white;
     padding: 5px;
     text-decoration: none;
     display: block;
 	font-family: Arial;
+	margin:20px;
 	
 }
 .dropdown4:hover .dropdown-child4 {
@@ -283,20 +315,6 @@ body {
 
 /* Logos da footer */
 
-.siga{
-	text-align: center;
-	position: absolute;
-    margin-left: 1625px;
-	padding: 22px;
-    text-align: center;
-    color: white;
-	font-size: 22px;
-	margin-top: -55px;
-
-}
-
-
-}
 #pos{
    float: right;
     margin-top: 15px;
@@ -308,45 +326,45 @@ body {
 }
 
 #insta{
-	position: absolute;
-    float: left;
-    margin-top: 0px;
+	width: 20%;
+	display: inline-block;
 	width: 30px;
-	margin-left: 840px;
+	margin-top:-5px;
 }
 
 #youtube{
-	position: absolute;
-    float: left;
-    margin-top: 0px;
+	width: 20%;
+	display: inline-block;
 	width: 30px;
-	margin-left: 720px;
+	margin-top:-5px;
+	
 }
 
 #linkdlen{
-	position: absolute;
-    float: left;
-    margin-top: 0px;
+	width: 20%;
+	display: inline-block;
 	width: 30px;
-	margin-left: 800px;
+	margin-top:-5px;
 }
 
 #facebook{
-	position: absolute;
-    float: left;
-    margin-top: 0px;
+	width: 20%;
+	display: inline-block;
 	width: 30px;
-	margin-left: 760px;
+	margin-top:-5px;
 }
 
 #twitter{
-	position: absolute;
-    float: left;
-    margin-top: 0px;
+	width: 20%;
+	display: inline-block;
 	width: 30px;
-	margin-left: 880px;
+	margin-top:-5px;
 }
 
+.siga {
+	margin-top:-10px;
+	
+}
 
 /* Logos da footer */
 
@@ -421,8 +439,7 @@ a:hover{
 .footd{
 	text-align: center;
 	position: absolute;
-    margin-left: 35px;
-	padding: 16px;
+    padding: 16px;
     text-align: center;
     color: white;
 	font-size: 22px;
@@ -433,19 +450,15 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: absolute;
   width: 100%;
+  margin-top:400px;
 }
 
 
 
 #ajustbutom {
-	display: flexbox, justify, center;
-	position: justify;
-	
-		
+    text-align: center;
 }
     
     
@@ -457,18 +470,26 @@ footer {
     width: 100%;
     padding: 100;
   }
-  .dropdown2 {
+  .dropdown, .dropdown2, .dropdown3, .dropdown4, .foot {
     width: 100%;
 	padding: 20;
+  }
+
+  .dropdown-child, .dropdown-child2, .dropdown-child3, .dropdown-child4{
+    position: relative;
+	width: 100%;
   }
   
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .menu-principal, .sobre_container, .menu-departamentos .dropdown .dropdown2 .dropdown3 .dropdown4 .foot{
+  .menu-principal, .sobre_container, .menu-departamentos, .dropdown, .dropdown2, .dropdown3, .dropdown4, .footd, .foot{
     width: 100%;
   }
 
+  .dropdown-child, .dropdown-child2, .dropdown-child3, .dropdown-child4{
+    position: relative;
+  }
 
 
 }

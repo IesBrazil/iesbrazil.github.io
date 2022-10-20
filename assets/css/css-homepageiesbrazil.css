@@ -975,27 +975,31 @@ Corporate
 
 .page-heading-corporate {
  background-image: url(../images/corporate/corporate.jpg);
-  background-size: cover;
+ background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  height: 600px; 	
-  padding: 110px 0px;
+  background-position: 40% 40%;
+  height: 300px; 	
+  padding: 80px 0px;
   text-align: center;
 }
 
 .page-heading-corporate h2 {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 600;
-  color: white;
+  color: #fff;
   margin-top: 50px;
   margin-bottom: 15px;
   font-family: Arial, Helvetica, sans-serif ;
+  
 }
 
 .page-heading-corporate span {
-  font-size: 20px;
-  color: white;
+  font-size: 30px;
+  color: #fff;
   font-weight: 300;
+  padding: 0px 50px;
+  display: inline-block;
+  font-family:Didot, serif;
 }
 
 .about-item {
@@ -1231,31 +1235,32 @@ ANP PANELS
 */
 
 .page-heading-anp-panels {
-  background-image: url(../images/anp/anp3.jpg);
+  background-image: url(../images/anp/bacias-madura.gif);
    background-size: cover;
   background-repeat: no-repeat;
-  background-position: 45% 50%;
-  height: 600px; 	
-  padding: 110px 0px;
+  background-position: 100% 58%;
+  height: 390px; 	
+  padding: 80px 0px;
   text-align: center;
   
 }
 
 .page-heading-anp-panels h2 {
-   font-size: 45px;
+  font-size: 50px;
   font-weight: 600;
-  color: #fff;
+  color: black;
   margin-top: 50px;
   margin-bottom: 15px;
   font-family: Arial, Helvetica, sans-serif ;
 }
 
 .page-heading-anp-panels span {
-  font-size: 20px;
+  font-size: 30px;
   color: #fff;
   font-weight: 300;
-  padding: 0px 250px;
+  padding: 0px 50px;
   display: inline-block;
+  font-family:Didot, serif;
 }
 
 .page-heading-anp-panels .next-show {
@@ -1466,19 +1471,19 @@ GEOSCIENCE
 */
 
 .page-heading-geoscience {
-  background-image: url(../images/geoscience/geoscience.jpg);
+  background-image: url(../images/geoscience/geoscience2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 10% 10%;
-  height: 600px; 	
-  padding: 110px 0px;
+  height: 300px; 	
+  padding: 80px 0px;
   text-align: center;
 }
 
 .page-heading-geoscience h2 {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 600;
-  color: #fff;
+  color: white;
   margin-top: 50px;
   margin-bottom: 15px;
   font-family: Arial, Helvetica, sans-serif ;
@@ -1489,11 +1494,24 @@ GEOSCIENCE
   font-size: 30px;
   color: #fff;
   font-weight: 300;
-  padding: 0px 250px;
+  padding: 0px 50px;
   display: inline-block;
   font-family:Didot, serif;
 }
 
+.positionall {
+	background-image: url(../images/geoscience/Header.png);
+	margin-top: 30px;
+	font-weight: 600;
+	font-family: Arial, Helvetica, sans-serif ;
+	margin-bottom: 25px;
+	text-align: center;	
+	color:white;
+	opacity:0.9;
+	
+	
+	
+}
 
 
 /*
@@ -1506,14 +1524,14 @@ production
   background-image: url(../images/production/production2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  height: 600px; 	
-  padding: 110px 0px;
+  background-position: 100% 100%;
+  height: 300px; 	
+  padding: 80px 0px;
   text-align: center;
 }
 
 .page-heading-production h2 {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 600;
   color: #fff;
   margin-top: 50px;
@@ -1526,7 +1544,7 @@ production
   font-size: 30px;
   color: #fff;
   font-weight: 300;
-  padding: 0px 250px;
+  padding: 0px 50px;
   display: inline-block;
   font-family:Didot, serif;
 }

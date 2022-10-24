@@ -604,7 +604,7 @@ banner
   background-repeat: no-repeat;
   background-position: 100% 100%;
   height: 650px; 	
-  padding: 150px 0px;
+  padding: 235px 0px;
   text-align: center;
   
 }
@@ -973,13 +973,14 @@ Corporate
 
 .page-heading-corporate {
  background-image: url(../images/corporate/corporate.jpg);
- background-size: cover;
+background-size: cover;
   background-repeat: no-repeat;
-  background-position: 40% 40%;
+  background-position: 40% 60%;
   height: 300px; 	
   padding: 80px 0px;
   text-align: center;
 }
+
 
 .page-heading-corporate h2 {
   font-size: 50px;
@@ -1233,11 +1234,11 @@ ANP PANELS
 */
 
 .page-heading-anp-panels {
-  background-image: url(../images/anp/bacias-madura.gif);
+  background-image: url(../images/anp/maps.jpg);
    background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100% 58%;
-  height: 390px; 	
+  background-position: 50% 50%;
+  height: 300px; 	
   padding: 80px 0px;
   text-align: center;
   
@@ -1247,7 +1248,7 @@ ANP PANELS
   font-size: 50px;
   font-weight: 600;
   color: black;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 15px;
   font-family: Arial, Helvetica, sans-serif ;
 }

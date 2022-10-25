@@ -1249,7 +1249,7 @@ ANP PANELS
   background-image: url(../images/anp/maps.jpg);
    background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 45% 45%;
   height: 300px; 	
   padding: 80px 0px;
   text-align: center;
@@ -1259,7 +1259,7 @@ ANP PANELS
 .page-heading-anp-panels h2 {
   font-size: 50px;
   font-weight: 600;
-  color: black;
+  color: white;
   margin-top: 50px;
   margin-bottom: 15px;
   font-family: Arial, Helvetica, sans-serif ;
